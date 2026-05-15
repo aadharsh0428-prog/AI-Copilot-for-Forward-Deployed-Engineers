@@ -20,28 +20,28 @@ During on-site DACH customer workshops, this tool helps you:
 ## Screenshots
 
 ### Step 1 — Paste or Record German Meeting Notes
-![Home page — Workshop Copilot ready state](screenshots/dataleap-ui-one.png)
+![Home page — Workshop Copilot ready state](dataleap-ui-one.png)
 
 The app opens in a clean ready state. On the left, paste German meeting notes or click **RECORD** to capture live audio via Whisper. Quick sample prompts are pre-loaded for testing. The right panel shows the three-step promise: record live → paste from notes → get agent spec before you leave the office. Status shows **READY v1.0** — backend and Ollama are connected.
 
 ---
 
 ### Step 2 — Workflow Extracted in Real-Time
-![Workflow extraction — Finance team daily Ramp review](screenshots/dataleap-ui-two.png)
+![Workflow extraction — Finance team daily Ramp review](dataleap-ui-two.png)
 
 After clicking **ANALYSE WORKFLOW**, the pipeline fires. The progress bar at the top moves through CAPTURE → EXTRACT → DESIGN → SPEC. The Workflow tab shows the extracted result: team (Finance), trigger (Daily), pain points, edge cases with escalation paths, and the full workflow pipeline. Automation score shows **9/10 HIGH** — the prompt fix correctly rates automation *potential*, not current state.
 
 ---
 
 ### Step 3 — Agent Architecture Designed Automatically
-![Agent Design tab — Ramp Expense Review Agent](screenshots/dataleap-ui-three.png)
+![Agent Design tab — Ramp Expense Review Agent](dataleap-ui-three.png)
 
 The Agent Design tab renders while the Spec is still generating (PROCESSING shown top-right). The LLM has decided on a **single-agent** architecture — Ramp Expense Review Agent running gpt-4o. MCP servers needed (`finance-mcp-server`, `compliance-mcp-server`) are called out explicitly. The data flow section describes exactly how the agent handles the happy path and the Slack escalation edge case.
 
 ---
 
 ### Step 4 — Full Implementation Spec with Tickets
-![Spec tab — Implementation tickets and rollout](screenshots/dataleap-ui-four.png)
+![Spec tab — Implementation tickets and rollout](dataleap-ui-four.png)
 
 The Spec tab delivers a complete build plan: 3 prioritised tickets (DL-002 P0 → DL-004 P2), rollout phases, success metrics, and risks. Each ticket has acceptance criteria. The recommended first step is called out at the top. Total estimate: **17 days**. The whole output is exportable as JSON via the EXPORT button top-right.
 
