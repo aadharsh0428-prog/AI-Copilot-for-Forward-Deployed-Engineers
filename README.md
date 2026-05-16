@@ -1,4 +1,4 @@
-# 🤖 Dataleap Field Agent — Workshop-to-Agent Builder
+# 🤖 Field Agent — Workshop-to-Agent Builder
 
 > **In-person AI copilot for Forward Deployed Engineers.**  
 > Converts live German customer discussions into structured AI workflow specifications and deployable agent plans.
